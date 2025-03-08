@@ -1,1 +1,1 @@
-# 7-mar
+# javascript course

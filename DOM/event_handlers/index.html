@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Handlers</title>
+  </head>
+  <body>
+    <div id="div1">welcome to DOm</div>
+    <p class="para">Lorem ipsum dolor sit amet.</p>
+    <p class="para">Lorem ipsum dolor sit amet.</p>
+    <p class="para">Lorem ipsum dolor sit amet.</p>
+    <h2 class="dom">DOM</h2>
+
+    <input type="email" name="email" id="" />
+
+    <!-- Event Handlers -->
+
+    <!-- <button  type="button" onclick="click()">click me</button> -->
+    <button id="clickEvent" type="button">click me</button>
+    <div onmouseover="mouserOver()" onmouseOut="mouseOut()">
+      Mouseover / mouseout mouse
+    </div>
+    <!-- keydown/keyup/keypress  keyboard -->
+    <input
+      type="text"
+      placeholder="enter your email"
+      onkeydown="keyDown()"
+      onchange="onchangeExample()"
+    />
+    <br />
+    <br />
+
+    <form onsubmit="login()">
+      <input type="email" name="" id="" required />
+      <input type="password" name="" id="" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
